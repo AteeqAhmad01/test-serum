@@ -1,7 +1,7 @@
 import { BonfidaTrade } from './types';
 
 export default class BonfidaApi {
-  static URL: string = 'https://serum-api.bonfida.com/';
+  static URL: string = 'https://api.dexlab.space/v1/trade-history/';
 
   static async get(path: string) {
     try {
@@ -24,4 +24,4 @@ export default class BonfidaApi {
   }
 }
 
-export const BONFIDA_DATA_FEED = 'https://serum-api.bonfida.com/tv';
+export const BONFIDA_DATA_FEED = 'https://api.dexlab.space/v1/trade-history/tv';
